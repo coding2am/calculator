@@ -1,0 +1,61 @@
+/* style sheet */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;
+  background: #556270;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.screen {
+  color:white;
+  padding:1rem;
+  text-align:right;
+  font-size: 2rem;
+}
+
+.calc-frame {
+  background-color: #252623;
+  border-radius: 1rem;
+  display: flex;
+  overflow: hidden;
+  flex-flow:column nowrap;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.row {
+  display: flex;
+}
+
+.btn {
+  text-align: center;
+  background-color:#BFB6A8;
+  flex-basis:25%;
+}
+.two {
+  flex-basis: 50%;
+}
+
+.btn > button {
+  font-size: 1.5rem;
+  border:none;
+  background-color: transparent;
+  width:3rem;
+  padding:2rem;
+  cursor:pointer;
+  outline:none;
+  width:100%;
+}
+
+.btn > button:active {
+  background-color: #252623;
+  color:#BFB6A8;
+}
