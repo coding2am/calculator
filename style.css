@@ -56,6 +56,10 @@ body {
   width:100%;
 }
 
+button {
+  color:#121317;
+}
+
 .btn > button:active {
   background-color: #252623;
   color:#BFB6A8;
