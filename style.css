@@ -44,6 +44,7 @@ body {
   flex-basis: 50%;
 }
 
+
 .btn > button {
   font-size: 1.5rem;
   border:none;
@@ -58,4 +59,12 @@ body {
 .btn > button:active {
   background-color: #252623;
   color:#BFB6A8;
+}
+
+
+/* media query */
+@media only screen and (max-width:420px) {
+  .calc-frame {
+   flex-basis:95%;
+  }
 }
